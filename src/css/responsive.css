@@ -1,0 +1,72 @@
+@media(max-width: 768px) {
+    html{ 
+        background: blueviolet url(/src/images/bg-mobile.svg) center center / cover no-repeat;
+        }
+
+    .cabecalho .logo{
+        margin: 30px 50px 20px;
+        width: 300px;
+    }
+    
+    .image-principal img{
+        max-width: 600px;
+        margin-top: 15px;
+    }
+    .container{
+        flex-direction: column;
+        max-width: 625px ;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .container .informacoes{
+        text-align: center;
+    }
+ 
+    .container .informacoes h2{
+        font-size: 4rem;
+    
+    }
+
+    .container .informacoes p{
+        font-size: 2rem;
+    }
+
+    .container .informacoes a{
+        padding: 15px 100px;
+    }
+
+    footer{
+        display: flex;
+        width: 100%;
+        height: 55px;
+        margin: 0;
+        padding: 0;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    footer .social{
+        display: flex;
+        right: 0;
+    }
+
+    footer .social a{
+        margin: 0 10px;
+    }
+}
+
+@media(max-width: 425px){
+    .image-principal img{
+        max-width: 370px;
+    }
+
+    *{
+        font-size: 50%;
+    }
+
+    footer .social a i{
+        font-size: 25px;
+    }
+}
